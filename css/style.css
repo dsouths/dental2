@@ -188,12 +188,13 @@ a {
     font-size: 0.8rem; }
 
 .site-navbar-top, .site-navbar {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  border-bottom: 1px solid rgba(255, 255, 255); }
 
 .site-navbar {
   margin-bottom: 0px;
   width: 100%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  background-color: #2C423F;
+  border-bottom: 1px solid rgba(255, 255, 255); }
   .site-navbar .site-logo {
     font-weight: 200; }
     .site-navbar .site-logo a {
@@ -214,7 +215,7 @@ a {
         padding: 10px 10px;
         text-transform: uppercase;
         letter-spacing: .05em;
-        color: rgba(255, 255, 255, 0.6);
+        color: rgba(255, 255, 255);
         font-size: 15px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -240,7 +241,7 @@ a {
           font-family: 'icomoon'; }
       .site-navbar .site-navigation .site-menu .has-children .dropdown {
         visibility: hidden;
-        opacity: 0;
+        opacity: 1;
         top: 100%;
         position: absolute;
         text-align: left;
